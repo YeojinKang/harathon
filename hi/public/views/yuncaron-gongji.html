@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style-gongji.css">
+        <script src="../scripts/yuncaron.js"></script>
+        <title>윤기나는 마카롱</title>
+    </head>
+    <body>
+        <section id="app">
+            <header id="ti">
+                <img id="title"src="https://user-images.githubusercontent.com/50042532/56846623-5817f580-690c-11e9-94fd-6a8b2a3733b6.jpg" onclick="movetohome()">
+            </header>
+            <section id="banner">
+                <h2 id="gongji" onclick="movetogongji()">공지사항</h1>
+                <h2 id="jumun" onclick="movetoorder()">주문하기</h1>
+                <h2 id="qna" onclick="movetoqna()">Q&A</h1>
+                <h2 id="hugi">상품후기</h1>
+                <input id="search" placeholder="오늘의 마카롱은?"
+                onkeypress=" ">
+                <input type="button" class="searchbutton" value="검색">
+            </section>
+
+        </section> 
+        <section id="today">
+            <header id="a">
+                <h1 id="mustread">
+                    **필독**
+                    많이 주문하삼
+                </h1>
+            </header>
+            <footer id="c">
+                    <img class="kakao" src="https://user-images.githubusercontent.com/50042532/56846618-4d5d6080-690c-11e9-9650-4e23bfaff52f.jpg" alt="No Image">
+                    <a href="https://www.instagram.com/yoooong2_96/?hl=ko" target='_blank'>
+                    <img class="insta" src="https://user-images.githubusercontent.com/50042532/56846626-5d754000-690c-11e9-9c8a-ff7f589d0377.jpg"></a>
+                    <style>
+                        .kakao { display: block;
+                            width: 100px; }
+                        .insta { display: block;
+                            width: 100px; }
+                        .todo {width: 500px; }
+        
+                    </style>
+            </footer>
+        </section>
+    </body>
+</html>

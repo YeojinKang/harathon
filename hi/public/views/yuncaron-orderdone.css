@@ -1,0 +1,59 @@
+#ti {
+    text-align: center;
+}
+
+#title {
+    cursor: pointer;
+}
+
+#banner {
+    text-align: center;
+}
+
+#search {
+    margin-inline-start: 100px;
+}
+
+#today {
+    display: flex;
+    flex-direction: row
+}
+
+#a {
+    text-align: center;
+    display: block;
+    flex: 6;
+    margin-inline-start: 170px
+}
+
+#c {
+    margin-inline-end: 100px;
+    flex: 1
+}
+
+h2 {
+    display: inline-block;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px
+}
+
+
+#order {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+#gongji {
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+#qna {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+#hugi {
+    background-color: peachpuff;
+    cursor: pointer;
+}

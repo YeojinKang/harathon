@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="yuncaron-orderdone.css">
+    <script src="../scripts/yuncaron.js"></script>
+    <title>윤기나는 마카롱</title>
+</head>
+
+<body>
+    <section id="app">
+        <header id="ti">
+            <img id="title" src="C:\Users\강여진\Desktop\title.jpg" onclick="movetohome()">
+        </header>
+        <section id="banner">
+            <h2 id="gongji" onclick="movetogongji()">공지사항</h2>
+            <h2 id="order" onclick="movetoorder()">주문하기</h2>
+            <h2 id="qna" onclick="movetoqna()">Q&A</h2>
+            <h2 id="hugi">상품후기</h2>
+            <input id="search" placeholder="오늘의 마카롱은?" onkeypress=" ">
+            <input type="button" class="searchbutton" value="검색">
+        </section>
+
+    </section>
+    <section id="today">
+        <header id="a">
+            <h3 id="orderdoned">
+                주문이 완료 되었습니다.
+            </h3>
+            <input type="button" class="donebutton" value="완료" onclick="movetohome()">
+        </header>
+        <footer id="c">
+            <img class="kakao" src="C:\Users\강여진\Desktop\카톡.jpg" alt="No Image">
+            <a href="https://www.instagram.com/yoooong2_96/?hl=ko" target='_blank'>
+                <img class="insta" src="C:\Users\강여진\Desktop\인스타.png"></a>
+            <style>
+                .kakao {
+                    display: block;
+                    width: 100px;
+                }
+                
+                .insta {
+                    display: block;
+                    width: 100px;
+                }
+            </style>
+        </footer>
+    </section>
+</body>
+
+</html>
